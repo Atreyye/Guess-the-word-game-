@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MFSmhtLFSzcFEECcS3aIjAqhQ67G2DiSga77OfNeXN9xP7rhgcJBw8RESHQVi-8YiScCX9kUQxlgvdnhOZzHiAIcsw1DZfWD03xxNOG68WaQVi_YvWkDXfDS4JMaSUF1qZi3kvCpR22a_gmO4ZfR_enpxZrIladafRv1Y6SUm3AEkmv1NkjLXOsdeRTIkYqzPfEpudtyggSCMEV5qbu2mQy5_bSvL6XKFk9vBvyXraKOj04ilF5NJjCb-vgcxv-NFhSq-c4E_zddeBKSXV1OdSOL4mnVWPEzARvd--qIQK-sPimsjZVJGdwoXynFV9xURZinDzbR56SQUPTb8vf46Et-QuojRU9qxtkxku-zX6fQYWjVb5s92XaDrlEQFRmSejUZMCqHWzwewY3oEbIuFFjqO7YrbWJtJe2u7IC7ghFwO6qhii-qBpmmWB4O5wklmOFThH1QK8MExnG-akTMNjWdeEuGC88QRVEJpJfodFmIe_0GIZ9ZmKHiNep2wLeNe8JfC9sWr7bNPx5_aZIp54YkTAlaO74M2QvksDi-JgGLlDJRvon4IA-aq2IHmaJe2O78Y37wXfxGPMGtTfI1Hk8LrPorAbT616sD8OP073TG28ZSH4_9z9dZkuRVbDiwyxlVBHB1iYZZ2RgMgd-M-Rp0ZS1zQD99C7-HTVkea_8Ul8Sbjt2qc8R4rwWATs177FRRkFR-ptZgblZujT_UmPW7dUw_ZL_lO5iolqjtBB6OE7V3wiYOK2KQ6uCANzrjjV0Kvg02auyBHj_bWul3ZxNh-BuIKLPpr-QekzNPPzmyJJ-9mH-yRSLguUKd3pThb8RtzX6BW5GWJnl3Karfezat6NgT1NIK2LytVrAWK7HVVWObNYvjuQrPpB306N99sNVpjb3aMBrnmNIrbpCgc3LfVbG1xEgTFAfbTQtoxNO62zCgSEgGNzNdPzcc_OtJcp0IP-S1RjrMV_kCgk4AoOAFtVwPKk-4j70HFtRoFHKfkKswr666G-yizgr83KjtmeU4jPcuiwhy_CstNZY5tEC_jQN1R9zjgIuPJJb0F03TkBah5Feba7uo-EWnOcRSh9ukr7m_3HS1cvyHxiTCyb2Q3CAaejUcNrvHFwzrFsixxGelMCRjIeED1k_m2qB-wpslzX4ztLGT11mYOJbfG6YDsgUDRCMhwNoRYXw9oNz6_V-gMmj4-CEwJcly40e77PxXUS3MX48IbyqE-ySTeSWNW_BoSUFEayZrJ6EbW_k" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMGstMG8tZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy83N2trZmt2YWtuOHQycXI4ODJiNmFzYXVlbzZkb2loOS9iYmxtZHYwanFtb3FwaHJqbXZrNHAxMjIzbjVrNmg5Zy8xNjQ0OTE4OTAwMDAwLzAxOTYxNTI0MjExNjY2MTUxNzI0LzA3NTE5MzU3MDUxNzA4NjUxNDY0LzFXUUNUMlRtUldRQktSdGVQSjcycDRiOXl3SDV0VkJuZj9lPWRvd25sb2FkJmF4PUFDeEVBc1l1R1RCU2VSdjVqa1RPaTNBeUpORURIRWFWeE1MVmZoc0lXWDRtNXF6ekhWYVhZOEllbEJRcURLX0pTVFB1dE1fWUo5LVQtUFV5c2hzd19sYmpmdFNEendkVFdPMnV1MDV4SjRLcHE3R1F5aG1oME1aMGZIdWZWaXU2VnV2cldhSWdlWXNKX1lKQjh2T3FsM1J0WTRrYXUtTkVjSWpONHpzN3liT3lDaUZlcl80N05IV3BkbjR6ZEE0NWV3cjlqMzhoT1kzZ2gxZHNHUHFoTGNQZnI5VEhBclJ6d2c3bVVabE5peEtZRHJ5NVZ2VmpkSDN5ODBtcUliZWNvZUVPQ0dydGZweVRPMTRJellLNm81ZUo2RGdSMlF0c2NqR2RRZ3g4Y0J3TlFvckVwdWJCWkFOTFFXX1hENjJTLXQtcTNDQ2dCWDMzb2ZrSm9EQmhYVHZrZEpmZW1ZM1lhaDQxZHZZTEVEanZwNWd5alJKRGItS1MyODFsd292R2JVdmdRSnAwVVdVWHRkdUppREpDSjIzYTRYVDI3dGc5eGdacFMxeFpGMERQX29NeUFBLWpKSWh2Y0lfd0ItUGdpRFJRNENLSDdqOG1BNGVtR0lpbVBCYmJaUDRVTEd5NXRRTkMyWndrUmV4a0dvWEZDTjJwbEI0Z3BvNFFjcG5Cd0VYY1otbS1HOXRhN0lsTHhmZDI5VUppX2JtM2twMmtnQWpZOGs5dWpQQXR2RDdPNmpUc2YyU3pOa1lvaXBpRm5LRDZqa0hDZ1RmVjdpZGIyazlpWGgxbzkyX08wUnc0djNXeFNPdHZxcHhFZWJHZ2pDT2FFODhjN0xldFFyb2dQaVRYQlJSNE54R1Q4ZGc2b2d3UmM3RGs2RVY0VVVUVVFKSzJ3ZGdsTTU2XyZhdXRodXNlcj0w"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">Guess The Word!</h2>
+		<h3 id="player_question"></h3>
+		<h3 id="player_answer"></h3>
+		<div id="output" class="col-lg-6"></div>
+
+
+		<br>
+		<br>
+
+		<label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
+		<input type="text" id="word" class="form-control" placeholder="Word">
+<br>
+<button onclick="send()" class="btn btn-success" style="width: 30%;">Send</button>
+
+	</center>
+</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>
